@@ -15,6 +15,7 @@
     box-sizing: border-box;
 }
 
+/* Agregando una imagen como fondo de pantalla*/
 body {
     height: 100vh;
     background-image: url("assets/abstract-background.jpg");
@@ -161,6 +162,7 @@ ul {
 .button-draw:hover {
     background-color: var(--color-button-hover);
 }
+/* Boton para reiniciar el juego*/
 .button-clean {
     display: flex;
     align-items: center;
