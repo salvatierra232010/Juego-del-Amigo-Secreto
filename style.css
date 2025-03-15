@@ -17,7 +17,7 @@
 
 body {
     height: 100vh;
-    background-color: var(--color-primary);
+    background-image: url("assets/abstract-background.jpg");
     display: flex;
     justify-content: center;
     align-items: center;
@@ -54,11 +54,12 @@ body {
 
 /* Títulos */
 .main-title {
-    font-size: 48px;
+    font-size: 80px;
     font-family: "Merriweather", serif;
     font-weight: 900;
     font-style: italic;
     color: var(--color-white);
+    padding: 70px;
 }
 
 .section-title {
@@ -90,6 +91,7 @@ body {
 .button-container {
     width: 300px;
     justify-content: center;
+
 }
 
 /* Estilos de entrada de texto */
@@ -152,11 +154,26 @@ ul {
     background-color: var(--color-button);
     font-size: 16px;
 }
-
 .button-draw img {
     margin-right: 40px;
 }
 
 .button-draw:hover {
+    background-color: var(--color-button-hover);
+}
+.button-clean {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 10px 40px;
+    color: var(--color-white);
+    background-color: var(--color-button);
+    font-size: 16px;
+}
+.button-clean img {
+    margin-right: 20px;
+}
+
+.button-clean:hover {
     background-color: var(--color-button-hover);
 }

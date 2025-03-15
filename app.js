@@ -42,9 +42,17 @@ function sortearAmigo(){
         alert("No hay amigos en la lista");
         return;
     }
-     let indice = Math.floor(Math.random()*10);
+     let indice = Math.floor(Math.random()*amigos.length);
      let sorteo = amigos[indice];
      document.getElementById('resultado').innerHTML = `Tu amigo secreto es ${sorteo}`;
+
+}
+
+function limpiarTodo(){
+    amigos = [];
+    document.getElementById('amigo').value = ''
+    document.getElementById('listaAmigos').innerHTML = '';
+    document.getElementById('resultado').textContent = '';
 
 }
 
